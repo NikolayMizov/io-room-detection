@@ -1,0 +1,12 @@
+node_modules/
+dist/
+build/
+.gradle/
+.idea/
+.vscode/
+*.log
+
+# secrets and local config
+.env
+.env.*
+BackEnd/src/main/resources/application-staging.properties

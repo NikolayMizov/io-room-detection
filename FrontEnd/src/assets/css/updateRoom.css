@@ -1,0 +1,48 @@
+.add-room-form {
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.add-room-form__wrapper {
+    margin: auto;
+    display: grid;
+    gap: 1em;
+}
+
+.add-room-form__grid {
+    display: flex;
+    gap: 5px;
+    text-align: center;
+}
+
+.add-room-form input {
+    width: 10em;
+}
+
+select {
+    min-width: 10em;
+}
+
+.custom-update-btn {
+    cursor: pointer;
+}
+
+.updatebutton {
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    padding: 0.6em 1.2em;
+    background-color: #294250;
+    color: #EDF9FF;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+
+}
+
+.updatebutton:hover {
+    box-shadow: inset 0 0 0 3px #6B9AB3;
+}

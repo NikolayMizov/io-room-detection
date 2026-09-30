@@ -1,0 +1,122 @@
+.appointment-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px auto;
+    padding: 10px 20px;
+    width: 90%;
+    background-color: #294250;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.appointment-card .people-amount{
+    float: right;
+}
+
+.sidebar-buttons {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.text-occupied{
+    color: red;
+    /*text-shadow: 0 0 1px #EDF9FF ;*/
+}
+
+.text-available{
+    color: lawngreen;
+    text-shadow: 0 0 1px #294250 ;
+}
+
+.text-meeting_soon{
+    color: #FFDD00;
+    text-shadow: 0 0 1px #294250 ;
+}
+
+.status {
+    font-size: 1.3rem;
+}
+
+
+.date-picker-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    width: 60%;
+}
+
+.date-picker-container label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.date-picker-container span {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.react-datepicker__input-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    max-width: 120px;
+}
+
+.react-datepicker__input-container input:focus {
+    border-color: #294250;
+    outline: none;
+}
+
+.react-datepicker {
+    font-size: 16px;
+    background-color: #EDF9FF;
+    border: 1px solid #294250;
+    padding: 5px;
+}
+
+.react-datepicker__header {
+    background-color: #6B9AB3;
+    color: white;
+}
+
+.react-datepicker__day--selected,
+.react-datepicker__day--keyboard-selected {
+    background-color: #6B9AB3;
+    color: white;
+}
+
+.react-datepicker__day--today {
+    font-weight: bold;
+    color: #294250;
+}
+
+.react-datepicker__day-names,
+.react-datepicker__week {
+    display: flex;
+    justify-content: space-between;
+}
+
+.react-datepicker__day-name,
+.react-datepicker__day {
+    width: 2.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+}
+
+.react-datepicker__day--outside-month {
+    color: #a1afbc;
+}
+.react-datepicker__navigation--previous,
+.react-datepicker__navigation--next {
+    background-color: #fff;
+    color: #294250;
+    border: 1px solid #294250;
+    padding: 0 4px;
+}
